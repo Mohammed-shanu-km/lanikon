@@ -8,7 +8,7 @@ const App = () => {
     <>
       
    <Routing/>
-   <Watsapp/>
+<Watsapp/>
     </>
   )
 }
