@@ -1,0 +1,7 @@
+.rinshad{
+    background: linear-gradient(rgba(0, 0, 0, 0.833), rgba(0, 0, 0, 0.778)),
+    url("/src/assets/kuttan.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,36 @@
+.meth-hero {
+   width: 100%;
+  height: 80vh;
+
+ background:
+    linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.88),
+      rgba(0, 0, 0, 0.82),
+      rgba(0, 0, 0, 0.90)
+    ),
+    url("/src/assets/pattern.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  }
+  @media (max-width: 1024px) {
+    .meth-hero {
+      width: 100%;
+      height: 40vh;
+    }
+  }
+  @media (max-width: 768px) {
+    .meth-hero {
+      width: 100%;
+      height: 40vh;
+    }
+  }
+  @media (max-width: 640px) {
+    .meth-hero {
+      width: 100%;
+      height: 40vh;
+    }
+  }
+  

@@ -1,0 +1,17 @@
+.heromain {
+  width: 100%;
+  height: 100vh;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.718), rgba(0, 0, 0, 0.69)),
+    url("/src/assets/co.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@media (max-width: 640px) {
+  .heromain  {
+    width: 100%;
+    height: 100vh;
+  }
+}
