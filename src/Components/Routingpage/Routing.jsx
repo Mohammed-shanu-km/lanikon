@@ -6,7 +6,7 @@ import Methadology from "../Pages/Methadology";
 import Gallery from "../Pages/Gallery";
 import Contactus from "../Pages/Contactus";
 import Watsapp from "../../Watsapp/Watsapp";
-import Clintsection from "../Pages/Clintsection";
+
 import Whatsapp from "../Whatsapp/Whatsapp";
 import Insta from "../Insta/Insta";
 import Cctv from "../Ccctv/Cctv";
@@ -21,8 +21,8 @@ const Routing = () => {
           <Route path="/services" element={<Methadology />} />
           {/* <Route path="/gall" element={<Gallery/>} /> */}
           <Route path="/contact" element={<Contactus />} />
-          <Route path="/client" element={<Clintsection />} />
-           <Route path="/cctv" element={<Cctv/>} />
+
+          <Route path="/cctv" element={<Cctv />} />
         </Routes>
       </Router>
     </>
